@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2174562836094003117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2174562836094003107}
+  - component: {fileID: 2174562836094003116}
+  - component: {fileID: 2174562836094003106}
+  - component: {fileID: 2174562836094003105}
+  - component: {fileID: 2174562836094003104}
+  m_Layer: 0
+  m_Name: ESPAWN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2174562836094003107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2174562836094003117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.035789013, y: 0.5, z: -0.5}
+  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2174562836094003116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2174562836094003117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0504646f7a3f93b43b4ac0d35f6b849c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemesarray:
+  - {fileID: 6023909865801417061, guid: b1b55e711830a034c8dc80548630b228, type: 3}
+  - {fileID: 6023909865801417061, guid: 86277b45d809a9147b2b390ac2eaac00, type: 3}
+  - {fileID: 6023909865801417061, guid: cdd054a493e237d43869aa9a5a05fd9f, type: 3}
+  - {fileID: 6023909865801417061, guid: 0bcfab2a17519bf43acb82378e778006, type: 3}
+  - {fileID: 6023909865801417061, guid: e0ac4a39cd022a04db34c498ee10790f, type: 3}
+  - {fileID: 6023909865801417061, guid: 1590a6fb23d0e594d88d725e306a7ef2, type: 3}
+  - {fileID: 6023909865801417061, guid: a4f2120317a159c48963aa639d9c3a20, type: 3}
+  - {fileID: 6023909865801417061, guid: aba9a65f3b7be2941900c109b7c9b139, type: 3}
+  - {fileID: 6023909865801417061, guid: 0118472f4ac6f5d4b945ac0b91e77eec, type: 3}
+  - {fileID: 6023909865801417061, guid: b2067f6cc17845c4c8085d40cd58eebb, type: 3}
+  - {fileID: 6023909865801417061, guid: 2d050dba15695b944be53e2e0317d24f, type: 3}
+  - {fileID: 6023909865801417061, guid: 846e5b8c8853a2f4aa2976cf57443b8d, type: 3}
+  - {fileID: 6023909865801417061, guid: 0390c8ec38a6b2e44bb84c3233b5544b, type: 3}
+  - {fileID: 6023909865801417061, guid: 02ed99f114fa7874b88ae19ae3a2a192, type: 3}
+  - {fileID: 6023909865801417061, guid: 244e5b43bbf0510418cdc5bbd623ab45, type: 3}
+  - {fileID: 6023909865801417061, guid: 4d45ceb51db3a5d40a88a23005a7963f, type: 3}
+  - {fileID: 6023909865801417061, guid: b54dbe99e0691b741b8de3872628487f, type: 3}
+  totalEnemies: 38
+  levelplayer: 0
+  lv: {fileID: 0}
+  numperEnemey: 0
+  uniqueNumbers: 
+  counts: 
+  min: 0
+  equall: 0
+  max: 0
+  kil: 0
+--- !u!114 &2174562836094003106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2174562836094003117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c52a76db9ca5d04ebbb0a526c91aa86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2174562836094003105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2174562836094003117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9165531814dfeaf4987dd6d5d44d8ded, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  namperenemey: 10
+  timer: 100
+  fix: {fileID: 1980465166517423, guid: d243cbaf37b1e554a85381914f6df8f9, type: 3}
+--- !u!114 &2174562836094003104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2174562836094003117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03953455740f8d46bb67466ca7afdab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tools:
+  - {fileID: 8415488138160077257, guid: ebd6f7a1cd0ed6e46b390e2ee694e6b5, type: 3}
+  - {fileID: 5241012102630975606, guid: d1ebe916b99c68141a85e54e21300f01, type: 3}
+  timer: 60
